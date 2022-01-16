@@ -1,13 +1,187 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Montserrat:wght@300&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  padding:20px;
+  display:flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 0.5px dotted #f1356d28;
 }
+
+.navbar h1{
+  color: #f1356d;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #f1356d;
+  background-color: white;
+  border: 1px solid #f1356d;
+  border-radius:7px;
+}
+
+.navbar a:hover{
+  background-color: #f1356d;
+  color: white;
+}
+
+
+/* .links a:first-child{
+  color: "#f1356d";
+  background-color: "white";
+  border: "1px solid #f1356d";
+  border-radius:"7px"
+}
+
+.links:nth-child(2){
+  color: "white";
+  background-color: "#f1356d";
+  border-radius: "8px"
+} */
+
+
+.content{
+  max-width:600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview{
+  padding: 14px 12px 10px 12px ;
+  
+}
+.blog-preview:hover{
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.title{
+  color: black;
+  margin-bottom: 2px;
+}
+
+.author{
+  color:rgb(63, 63, 63);
+  margin-bottom:4px;
+}
+
+.intro{
+  font-family: Be Vietnam Pro, sans-serif; 
+  color:rgb(120, 120, 120); 
+  margin-bottom:"10px";
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line{
+  width:100%;
+  height:1.5px;
+  background-color:#f1356d;
+  margin:10px 0 15px 0;
+}
+
+.blog-details .intro {
+  margin-top: 10px;
+}
+
+.body{
+  font-family: Be Vietnam Pro, sans-serif; 
+  color:rgb(75, 75, 75); 
+  margin-bottom:"10px";
+}
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+}
+
+.create button {
+  background-color: #f1356d;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  padding : 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+.blog-details button{
+  background-color: #f1356d;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  padding : 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+.blog-details .line{
+  margin-top: 12px;
+  height: 1px;
+}
+
+.not-found h2{
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.not-found p{
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.not-found a{
+  color: #f1356d;
+}
+
+label{
+  color : black;
+}
+
